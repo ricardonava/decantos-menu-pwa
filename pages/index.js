@@ -9,10 +9,8 @@ export default function Home() {
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
         <title>Decantos Menu</title>
       </head>
-      <body class="bg-gray-200">
-        <header>New Header</header>
-        <main>Main</main>
-        <footer>Footer</footer>
+      <body className="bg-gray-200">
+        <div className="flex"></div>
       </body>
     </html>
   );

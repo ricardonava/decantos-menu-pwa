@@ -10,7 +10,7 @@ export default function Home() {
         <title>Decantos Menu</title>
       </head>
       <body class="bg-gray-200">
-        <header>Header</header>
+        <header>New Header</header>
         <main>Main</main>
         <footer>Footer</footer>
       </body>

@@ -36,7 +36,7 @@ export default function Home() {
             </nav>
             {Object.keys(menu).map((seccion) => (
               <section className="mb-8">
-                <h2 className="text-2xl">{seccion}</h2>
+                <h2 className="text-2xl uppercase">{seccion}</h2>
                 {menu[seccion].map((articulo) => (
                   <article className="leading-none mt-3 font-medium">
                     <h3 className="text-xl font-semibold">{articulo.nombre}</h3>

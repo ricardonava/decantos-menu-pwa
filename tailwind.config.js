@@ -1,8 +1,9 @@
+/* eslint-disable global-require */
 module.exports = {
   purge: [],
   theme: {
-    extend: {},
+    extend: {}
   },
   variants: {},
-  plugins: [],
-}
+  plugins: []
+};

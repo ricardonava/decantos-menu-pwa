@@ -11,9 +11,16 @@ export default function Home() {
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <title>Decantos Menu</title>
       </Head>
-      <body className="bg-gray-100 font-mono">
+      <body className="font-mono">
         <div className="flex">
-          <div className="bg-gray-100 px-2 py-6 max-w-2xl mx-auto">
+          <div className="px-2 py-6 max-w-2xl mx-auto">
+            <header className="flex">
+              <img
+                className="mx-auto mb-6"
+                alt="DECANTOS"
+                src="https://static.wixstatic.com/media/6ad50f_e5a06ecb811d44929bb9bf96fe327ad6~mv2.jpg/v1/fill/w_132,h_120,al_c,q_80,usm_0.66_1.00_0.01/LISTA%20DE%20VINO%202020-01.webp"
+              />
+            </header>
             <nav className="mb-6">
               <ul className="flex">
                 <li className="flex-1 mr-2">
@@ -40,11 +47,9 @@ export default function Home() {
                 {menu[seccion].map((articulo) => (
                   <article className="leading-none mt-3 font-medium">
                     <h3 className="text-xl font-semibold">{articulo.nombre}</h3>
-                    <p className="text-lg font-normal">
-                      {articulo.descripcion}
-                    </p>
+                    <p className="text-lg font-light">{articulo.descripcion}</p>
                     <p className="text-lg text-gray-700">$ {articulo.precio}</p>
-                    <p className="text-lg text-gray-500">
+                    <p className="text-md text-gray-500">
                       {articulo.maridaje}
                       {articulo.maridaje !== '' ? '**' : ''}
                     </p>

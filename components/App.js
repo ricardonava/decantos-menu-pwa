@@ -12,8 +12,8 @@ export default function App({ children }) {
         <title>PLATILLOS</title>
       </Head>
       <body className="font-mono">
-        <div className="flex">
-          <div className="px-2 py-6 max-w-3xl mx-auto">{children}</div>
+        <div className="flex max-w-2xl mx-auto">
+          <div className="px-2 py-6 w-screen mx-4">{children}</div>
         </div>
       </body>
     </html>

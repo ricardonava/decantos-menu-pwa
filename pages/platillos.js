@@ -1,15 +1,14 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
 import App from '../components/App';
 import Header from '../components/Header';
-import Main from '../components/Main';
+import MenuPlatillos from '../components/MenuPlatillos';
 import Nav from '../components/Nav';
 
-export default function Home() {
+export default function Platillos() {
   return (
     <App>
       <Header />
       <Nav />
-      <Main />
+      <MenuPlatillos />
     </App>
   );
 }

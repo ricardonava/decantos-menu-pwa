@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import MENU from '../menu.json';
+import MENU from '../menuPlatillos.json';
 
 export default function Main() {
   return (
@@ -11,8 +11,8 @@ export default function Main() {
             <article className="leading-none mt-3 font-medium">
               <h3 className="text-xl font-bold">{articulo.nombre}</h3>
               <p className="text-lg">{articulo.descripcion}</p>
-              <p className="text-lg text-gray-700">$ {articulo.precio}</p>
-              <p className="text-md text-gray-500">
+              <p className="text-lg text-gray-500">$ {articulo.precio}</p>
+              <p className="text-md text-gray-400">
                 {articulo.maridaje}
                 {articulo.maridaje !== '' ? '**' : ''}
               </p>

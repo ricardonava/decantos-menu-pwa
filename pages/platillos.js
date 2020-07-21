@@ -1,14 +1,10 @@
-import App from '../components/App';
-import Header from '../components/Header';
+import Layout from '../components/Layout';
 import MenuPlatillos from '../components/MenuPlatillos';
-import Nav from '../components/Nav';
 
 export default function Platillos() {
   return (
-    <App>
-      <Header />
-      <Nav />
+    <Layout>
       <MenuPlatillos />
-    </App>
+    </Layout>
   );
 }

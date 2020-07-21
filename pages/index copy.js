@@ -1,11 +1,10 @@
 import Layout from '../components/Layout';
+import MenuVinos from '../components/MenuVinos';
 
 export default function Home() {
   return (
     <Layout>
-      <main>
-        <h1>Hola mundo</h1>
-      </main>
+      <MenuVinos />
     </Layout>
   );
 }

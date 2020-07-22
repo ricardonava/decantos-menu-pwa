@@ -15,7 +15,7 @@ export default function Nav() {
     <nav className="mb-6">
       <ul className="flex">
         <Link href={`/${lang}/vinos`}>
-          <li className="flex-1 mr-2 cursor-pointer">
+          <li className="flex-1 mr-2">
             {router.asPath === `/${lang}/vinos` ? (
               <a className="text-center block border border-gray-900 rounded bg-gray-900 hover:border-gray-700 hover:bg-gray-700 text-white py-2 px-4">
                 VINOS

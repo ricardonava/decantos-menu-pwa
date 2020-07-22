@@ -2,6 +2,7 @@
 /* eslint-disable react/prop-types */
 import Head from 'next/head';
 import '../styles.css';
+import Header from '../components/Header';
 
 function App({ Component, pageProps }) {
   return (
@@ -114,6 +115,7 @@ function App({ Component, pageProps }) {
         <link href="/manifest.json" rel="manifest" />
         <title>PLATILLOS</title>
       </Head>
+      <Header />
       <Component {...pageProps} />
     </html>
   );

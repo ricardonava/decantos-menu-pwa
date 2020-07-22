@@ -4,7 +4,6 @@ import { useRouter } from 'next/router';
 
 export default function Nav() {
   const router = useRouter();
-
   if (router.route === '/') {
     return null;
   }
@@ -44,3 +43,18 @@ export default function Nav() {
     </nav>
   );
 }
+
+// export async function getStaticProps(context) {
+//   const { lang: newLang } = context.params;
+//   console.log(newLang);
+//   return {
+//     props: { newLang } // will be passed to the page component as props
+//   };
+// }
+
+// export async function getStaticPaths() {
+//   return {
+//     paths: [{ params: { lang: 'es' } }, { params: { lang: 'en' } }],
+//     fallback: false // See the "fallback" section below
+//   };
+// }

@@ -1,13 +1,11 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import Link from 'next/link';
-import Header from '../components/Header';
 import Layout from '../components/Layout';
 import Nav from '../components/Nav';
 
 export default function Home() {
   return (
     <Layout>
-      <Header />
       <Nav />
 
       <main>

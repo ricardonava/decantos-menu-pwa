@@ -4,7 +4,7 @@ import { useRouter } from 'next/router';
 
 export default function Nav() {
   const router = useRouter();
-  console.log(router.query.lang);
+
   if (router.route === '/') {
     return null;
   }
@@ -18,11 +18,11 @@ export default function Nav() {
           <li className="flex-1 mr-2 cursor-pointer">
             {router.asPath === `/${lang}/vinos` ? (
               <a className="text-center block border border-gray-900 rounded bg-gray-900 hover:border-gray-700 hover:bg-gray-700 text-white py-2 px-4">
-                VINOS
+                {lang === 'en' ? 'WINES' : 'VINOS'}
               </a>
             ) : (
               <a className="text-center block border border-gray-500 rounded hover:border-gray-700 text-gray-700 hover:text-gray-900 hover:bg-gray-300 py-2 px-4">
-                VINOS
+                {lang === 'en' ? 'WINES' : 'VINOS'}
               </a>
             )}
           </li>
@@ -31,11 +31,11 @@ export default function Nav() {
           <li className="flex-1 mr-2 cursor-pointer">
             {router.asPath === `/${lang}/vinos` ? (
               <a className="text-center block border border-gray-500 rounded hover:border-gray-700 text-gray-700 hover:text-gray-900 hover:bg-gray-300 py-2 px-4">
-                PLATILLOS
+                {lang === 'en' ? 'DISHES' : 'PLATILLOS'}
               </a>
             ) : (
               <a className="text-center block border border-gray-900 rounded bg-gray-900 hover:border-gray-700 hover:bg-gray-700 text-white py-2 px-4">
-                PLATILLOS
+                {lang === 'en' ? 'DISHES' : 'PLATILLOS'}
               </a>
             )}
           </li>

@@ -114,13 +114,7 @@ function App({ Component, pageProps }) {
         <link href="/manifest.json" rel="manifest" />
         <title>PLATILLOS</title>
       </Head>
-      <body className="font-mono">
-        <div className="flex max-w-2xl mx-auto h-full items-center">
-          <div className="px-2 py-6 w-screen mx-4">
-            <Component {...pageProps} />
-          </div>
-        </div>
-      </body>
+      <Component {...pageProps} />
     </html>
   );
 }

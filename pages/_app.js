@@ -3,7 +3,6 @@
 import Head from 'next/head';
 import Header from '../components/Header';
 import Nav from '../components/Nav';
-
 import '../styles.css';
 
 function App({ Component, pageProps }) {
@@ -118,7 +117,7 @@ function App({ Component, pageProps }) {
         <title>PLATILLOS</title>
       </Head>
       <body className="font-mono">
-        <div className="flex max-w-2xl mx-auto">
+        <div className="flex max-w-2xl mx-auto h-full items-center">
           <div className="px-2 py-6 w-screen mx-4">
             <Header />
             <Nav />

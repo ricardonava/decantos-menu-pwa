@@ -1,5 +1,5 @@
-import Layout from '../components/Layout';
-import MenuPlatillos from '../components/MenuPlatillos';
+import Layout from '../../components/Layout';
+import MenuPlatillos from '../../components/MenuPlatillos';
 
 export default function Platillos() {
   return (

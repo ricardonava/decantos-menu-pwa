@@ -1,194 +1,384 @@
 {
-  "entradas": [
-    {
-      "nombre": "ENSALADA ESTILO CÉSAR DE LA CASA",
-      "descripcion": "LECHUGA ROMANA/ KALE / PISTACHE / QUESO PARMESANO",
-      "precio": "190",
-      "maridaje": "GRENACHE BLANC"
-    },
-    {
-      "nombre": "OSTIÓN DE CULTIVO FRESCO 6pzs",
-      "descripcion": "CON ESCABECHE DE HINOJO / KOSHO DE CÍTRICOS",
-      "precio": "170",
-      "maridaje": "BURBUJA BLANCA VINO ESPUMOSO/SAV. BLANC"
-    },
-    {
-      "nombre": "OSTIÓN DE CULTIVO TEMPURA 6pzs",
-      "descripcion": "",
-      "precio": "180",
-      "maridaje": "BURBUJA BLANCA VINO ESPUMOSO/SAV. BLANC"
-    },
-    {
-      "nombre": "TIRADITO DE PESCADO CON HONGO SHIITAKE",
-      "descripcion": "ALIOLI DE CEBOLLA TATEMADA / SALSA PONZU",
-      "precio": "250",
-      "maridaje": "FRENCH COLOMBARD"
-    },
-    {
-      "nombre": "SASHIMI DE ATÚN ALETA AZUL DE TEMPORADA",
-      "descripcion": "",
-      "precio": "250",
-      "maridaje": "CHARDONNAY"
-    },
-    {
-      "nombre": "TARTAR DE PESCADO",
-      "descripcion": "AGUACATE / CEBOLLA CAMBRAY / MANZANA EN ESCABECHE",
-      "precio": "250",
-      "maridaje": "CHARDONNAY"
-    },
-    {
-      "nombre": "AGUACHILE DE CAMARÓN",
-      "descripcion": "PEPINO TATEMADO / CHILE SERRANO / ALGA WAKAME",
-      "precio": "250",
-      "maridaje": "SAV. BLANC/FRENCH COLOMBARD"
-    },
-    {
-      "nombre": "ABULÓN DE CULTIVO EN CONCHA 4pzs",
-      "descripcion": "SALSA DE VINO BLANCO",
-      "precio": "380",
-      "maridaje": "ROSÉ CARIGNAN/SAV. BLANC"
-    }
-  ],
-  "acompañantes": [
-    {
-      "nombre": "TABLA DE QUESOS LOCALES",
-      "descripcion": "PRODUCTO DE TEMPORADA",
-      "precio": "225",
-      "maridaje": ""
-    },
-    {
-      "nombre": "CHORIZO IBÉRICO 40g",
-      "descripcion": "CHARCUTERÍA “MONTARAZ ÚNICO”",
-      "precio": "250",
-      "maridaje": ""
-    },
-    {
-      "nombre": "SALCHICHÓN IBÉRICO 40g",
-      "descripcion": "CHARCUTERÍA “MONTARAZ ÚNICO”",
-      "precio": "250",
-      "maridaje": ""
-    },
-    {
-      "nombre": "LOMITO IBÉRICO 40g",
-      "descripcion": "CHARCUTERÍA “MONTARAZ ÚNICO”",
-      "precio": "350",
-      "maridaje": ""
-    },
-    {
-      "nombre": "JAMÓN IBÉRICO 40g",
-      "descripcion": "CHARCUTERÍA “MONTARAZ ÚNICO”",
-      "precio": "350",
-      "maridaje": ""
-    },
-    {
-      "nombre": "SALCHICHÓN IBÉRICO 40g",
-      "descripcion": "CHARCUTERÍA “MONTARAZ ÚNICO”",
-      "precio": "250",
-      "maridaje": ""
-    }
-  ],
-  "platillos calientes": [
-    {
-      "nombre": "PIZZA",
-      "descripcion": "PEPPERONI",
-      "precio": "180",
-      "maridaje": ""
-    },
-    {
-      "nombre": "",
-      "descripcion": "MARGHERITA",
-      "precio": "180",
-      "maridaje": ""
-    },
-    {
-      "nombre": "",
-      "descripcion": "BARBACOA DE RES",
-      "precio": "230",
-      "maridaje": ""
-    },
-    {
-      "nombre": "",
-      "descripcion": "CAMARÓN",
-      "precio": "230",
-      "maridaje": ""
-    }
-  ],
-  "platos fuertes": [
-    {
-      "nombre": "BARBACOA DE RES CON PAPAS ROSTIZADAS",
-      "descripcion": "SALSA DE QUESO / DEMI-GLACE",
-      "precio": "250",
-      "maridaje": "RUBY CABERNET"
-    },
-    {
-      "nombre": "RIB-EYE AÑEJO 550g",
-      "descripcion": "ENSALADA / PAPA",
-      "precio": "750",
-      "maridaje": "PETIT SYRAH"
-    },
-    {
-      "nombre": "PULPO ASADO",
-      "descripcion": "TARE / CAMOTE ROSTIZADO / ESCABECHE",
-      "precio": "300",
-      "maridaje": "SANGIOVESE"
-    }
-  ],
-  "postres": [
-    {
-      "nombre": "BROWNIE CON HELADO",
-      "descripcion": "",
-      "precio": "110",
-      "maridaje": "COUPAGE TINTO"
-    },
-    {
-      "nombre": "PANNA COTTA DE VAINILLA",
-      "descripcion": "",
-      "precio": "110",
-      "maridaje": "CHARDONNAY"
-    }
-  ],
-  "bebidas": [
-    {
-      "nombre": "AGUA NATURAL CIEL 600ml",
-      "descripcion": "",
-      "precio": "30",
-      "maridaje": ""
-    },
-    {
-      "nombre": "LIMONADA NATURAL",
-      "descripcion": "",
-      "precio": "35",
-      "maridaje": ""
-    },
-    {
-      "nombre": "LIMONADA MINERALL",
-      "descripcion": "",
-      "precio": "45",
-      "maridaje": ""
-    },
-    {
-      "nombre": "SODA SAN PELLEGRINO",
-      "descripcion": "",
-      "precio": "50",
-      "maridaje": ""
-    },
-    {
-      "nombre": "AGUA MINERAL SAN PELLEGRINO",
-      "descripcion": "250ml",
-      "precio": "50",
-      "maridaje": ""
-    },
-    {
-      "nombre": "",
-      "descripcion": "750ml",
-      "precio": "100",
-      "maridaje": ""
-    },
-    {
-      "nombre": "SANGRIA",
-      "descripcion": "",
-      "precio": "100",
-      "maridaje": ""
-    }
-  ]
+  "es": {
+    "entradas": [
+      {
+        "nombre": "ENSALADA ESTILO CÉSAR DE LA CASA",
+        "descripcion": "LECHUGA ROMANA/ KALE / PISTACHE / QUESO PARMESANO",
+        "precio": "190",
+        "maridaje": "GRENACHE BLANC"
+      },
+      {
+        "nombre": "OSTIÓN DE CULTIVO FRESCO 6pzs",
+        "descripcion": "CON ESCABECHE DE HINOJO / KOSHO DE CÍTRICOS",
+        "precio": "170",
+        "maridaje": "BURBUJA BLANCA VINO ESPUMOSO/SAV. BLANC"
+      },
+      {
+        "nombre": "OSTIÓN DE CULTIVO TEMPURA 6pzs",
+        "descripcion": "",
+        "precio": "180",
+        "maridaje": "BURBUJA BLANCA VINO ESPUMOSO/SAV. BLANC"
+      },
+      {
+        "nombre": "TIRADITO DE PESCADO CON HONGO SHIITAKE",
+        "descripcion": "ALIOLI DE CEBOLLA TATEMADA / SALSA PONZU",
+        "precio": "250",
+        "maridaje": "FRENCH COLOMBARD"
+      },
+      {
+        "nombre": "SASHIMI DE ATÚN ALETA AZUL DE TEMPORADA",
+        "descripcion": "",
+        "precio": "250",
+        "maridaje": "CHARDONNAY"
+      },
+      {
+        "nombre": "TARTAR DE PESCADO",
+        "descripcion": "AGUACATE / CEBOLLA CAMBRAY / MANZANA EN ESCABECHE",
+        "precio": "250",
+        "maridaje": "CHARDONNAY"
+      },
+      {
+        "nombre": "AGUACHILE DE CAMARÓN",
+        "descripcion": "PEPINO TATEMADO / CHILE SERRANO / ALGA WAKAME",
+        "precio": "250",
+        "maridaje": "SAV. BLANC/FRENCH COLOMBARD"
+      },
+      {
+        "nombre": "ABULÓN DE CULTIVO EN CONCHA 4pzs",
+        "descripcion": "SALSA DE VINO BLANCO",
+        "precio": "380",
+        "maridaje": "ROSÉ CARIGNAN/SAV. BLANC"
+      }
+    ],
+    "acompañantes": [
+      {
+        "nombre": "TABLA DE QUESOS LOCALES",
+        "descripcion": "PRODUCTO DE TEMPORADA",
+        "precio": "225",
+        "maridaje": ""
+      },
+      {
+        "nombre": "CHORIZO IBÉRICO 40g",
+        "descripcion": "CHARCUTERIE “MONTARAZ ÚNICO”",
+        "precio": "250",
+        "maridaje": ""
+      },
+      {
+        "nombre": "SALCHICHÓN IBÉRICO 40g",
+        "descripcion": "CHARCUTERIE “MONTARAZ ÚNICO”",
+        "precio": "250",
+        "maridaje": ""
+      },
+      {
+        "nombre": "LOMITO IBÉRICO 40g",
+        "descripcion": "CHARCUTERIE “MONTARAZ ÚNICO”",
+        "precio": "350",
+        "maridaje": ""
+      },
+      {
+        "nombre": "JAMÓN IBÉRICO 40g",
+        "descripcion": "CHARCUTERIE “MONTARAZ ÚNICO”",
+        "precio": "350",
+        "maridaje": ""
+      }
+    ],
+    "platillos calientes": [
+      {
+        "nombre": "PIZZA",
+        "descripcion": "PEPPERONI",
+        "precio": "180",
+        "maridaje": ""
+      },
+      {
+        "nombre": "",
+        "descripcion": "MARGHERITA",
+        "precio": "180",
+        "maridaje": ""
+      },
+      {
+        "nombre": "",
+        "descripcion": "BARBACOA DE RES",
+        "precio": "230",
+        "maridaje": ""
+      },
+      {
+        "nombre": "",
+        "descripcion": "CAMARÓN",
+        "precio": "230",
+        "maridaje": ""
+      }
+    ],
+    "platos fuertes": [
+      {
+        "nombre": "BARBACOA DE RES CON PAPAS ROSTIZADAS",
+        "descripcion": "SALSA DE QUESO / DEMI-GLACE",
+        "precio": "250",
+        "maridaje": "RUBY CABERNET"
+      },
+      {
+        "nombre": "RIB-EYE AÑEJO 550g",
+        "descripcion": "ENSALADA / PAPA",
+        "precio": "750",
+        "maridaje": "PETIT SYRAH"
+      },
+      {
+        "nombre": "PULPO ASADO",
+        "descripcion": "TARE / CAMOTE ROSTIZADO / ESCABECHE",
+        "precio": "300",
+        "maridaje": "SANGIOVESE"
+      }
+    ],
+    "postres": [
+      {
+        "nombre": "BROWNIE CON HELADO",
+        "descripcion": "",
+        "precio": "110",
+        "maridaje": "COUPAGE TINTO"
+      },
+      {
+        "nombre": "PANNA COTTA DE VAINILLA",
+        "descripcion": "",
+        "precio": "110",
+        "maridaje": "CHARDONNAY"
+      }
+    ],
+    "bebidas": [
+      {
+        "nombre": "AGUA NATURAL CIEL 600ml",
+        "descripcion": "",
+        "precio": "30",
+        "maridaje": ""
+      },
+      {
+        "nombre": "LIMONADA NATURAL",
+        "descripcion": "",
+        "precio": "35",
+        "maridaje": ""
+      },
+      {
+        "nombre": "LIMONADA MINERALL",
+        "descripcion": "",
+        "precio": "45",
+        "maridaje": ""
+      },
+      {
+        "nombre": "SODA SAN PELLEGRINO",
+        "descripcion": "",
+        "precio": "50",
+        "maridaje": ""
+      },
+      {
+        "nombre": "AGUA MINERAL SAN PELLEGRINO",
+        "descripcion": "250ml",
+        "precio": "50",
+        "maridaje": ""
+      },
+      {
+        "nombre": "",
+        "descripcion": "750ml",
+        "precio": "100",
+        "maridaje": ""
+      },
+      {
+        "nombre": "SANGRIA",
+        "descripcion": "",
+        "precio": "100",
+        "maridaje": ""
+      }
+    ]
+  },
+  "en": {
+    "appetizers": [
+      {
+        "nombre": "CAESAR STYLE SALAD",
+        "descripcion": "ROMAINE  LETTUCE / KALE / PISTACHIOS / PARMESAN CHEESE ",
+        "precio": "190",
+        "maridaje": "GRENACHE BLANC"
+      },
+      {
+        "nombre": "FRESH OYSTERS 6pcs",
+        "descripcion": "WITH PICKLED FENNEL MIGNONETTE / YUZU KOSHO",
+        "precio": "170",
+        "maridaje": "BURBUJA BLANCA VINO ESPUMOSO/SAV. BLANC"
+      },
+      {
+        "nombre": "TEMPURA OYSTERS 6pcs",
+        "descripcion": "",
+        "precio": "180",
+        "maridaje": "BURBUJA BLANCA VINO ESPUMOSO/SAV. BLANC"
+      },
+      {
+        "nombre": "TIRADITO FISH W/SHIITAKE MUSHROOMS",
+        "descripcion": "GRILLED ONION ALIOLI / PONZU SAUCE",
+        "precio": "250",
+        "maridaje": "FRENCH COLOMBARD"
+      },
+      {
+        "nombre": "BLUE TUNA FIN SASHIMI",
+        "descripcion": "",
+        "precio": "250",
+        "maridaje": "CHARDONNAY"
+      },
+      {
+        "nombre": "FISH TARTAR",
+        "descripcion": "AVOCADO / PICKLED APPLE / GREEN ONION",
+        "precio": "250",
+        "maridaje": "CHARDONNAY"
+      },
+      {
+        "nombre": "SHRIMP AGUACHILE",
+        "descripcion": "GRILLED CUCUMBER / SERRANO CHILI / WAKAME ALGAE",
+        "precio": "250",
+        "maridaje": "SAV. BLANC/FRENCH COLOMBARD"
+      },
+      {
+        "nombre": "ABALONE IN SHELL 4pcs",
+        "descripcion": "WHITE WINE SAUCE",
+        "precio": "380",
+        "maridaje": "ROSÉ CARIGNAN/SAV. BLANC"
+      }
+    ],
+    "sides": [
+      {
+        "nombre": "LOCAL CHEESE BOARD",
+        "descripcion": "SEASONAL PRODUCTS",
+        "precio": "225",
+        "maridaje": ""
+      },
+      {
+        "nombre": "IBERIAN CHORIZO 40g",
+        "descripcion": "CHARCUTERIE “MONTARAZ ÚNICO”",
+        "precio": "250",
+        "maridaje": ""
+      },
+      {
+        "nombre": "IBERIAN SAUSAGE 40g",
+        "descripcion": "CHARCUTERIE “MONTARAZ ÚNICO”",
+        "precio": "250",
+        "maridaje": ""
+      },
+      {
+        "nombre": "IBERIAN LOIN 40g",
+        "descripcion": "CHARCUTERIE “MONTARAZ ÚNICO”",
+        "precio": "350",
+        "maridaje": ""
+      },
+      {
+        "nombre": "IBERIAN CURED ACORN HAM 40g",
+        "descripcion": "CHARCUTERIE “MONTARAZ ÚNICO”",
+        "precio": "250",
+        "maridaje": ""
+      }
+    ],
+    "hot dishes": [
+      {
+        "nombre": "PIZZA",
+        "descripcion": "PEPPERONI",
+        "precio": "180",
+        "maridaje": ""
+      },
+      {
+        "nombre": "",
+        "descripcion": "MARGHERITA",
+        "precio": "180",
+        "maridaje": ""
+      },
+      {
+        "nombre": "",
+        "descripcion": "BEEF BARBACOA",
+        "precio": "230",
+        "maridaje": ""
+      },
+      {
+        "nombre": "",
+        "descripcion": "SHRIMP",
+        "precio": "230",
+        "maridaje": ""
+      }
+    ],
+    "main": [
+      {
+        "nombre": "BARBECUE BEEF WITH ROASTED POTATOES",
+        "descripcion": "CHEESE SAUCE / DEMI-GLACE",
+        "precio": "250",
+        "maridaje": "RUBY CABERNET"
+      },
+      {
+        "nombre": "AGED RIB-EYE 550g",
+        "descripcion": "SALAD / POTATO",
+        "precio": "750",
+        "maridaje": "PETIT SYRAH"
+      },
+      {
+        "nombre": "GRILLED OCTOPUS",
+        "descripcion": "TARE / ROASTED SWEET POTATO / MARINADE",
+        "precio": "300",
+        "maridaje": "SANGIOVESE"
+      }
+    ],
+    "desserts": [
+      {
+        "nombre": "BROWNIE WITH ICE CREAM",
+        "descripcion": "",
+        "precio": "110",
+        "maridaje": "COUPAGE TINTO"
+      },
+      {
+        "nombre": "VANILLA PANNA COTTA",
+        "descripcion": "",
+        "precio": "110",
+        "maridaje": "CHARDONNAY"
+      }
+    ],
+    "beverages": [
+      {
+        "nombre": "BOTTLED WATER \"CIEL\" 600ml",
+        "descripcion": "",
+        "precio": "30",
+        "maridaje": ""
+      },
+      {
+        "nombre": "BOTTLED SPARKLING WATER \"CIEL\" 600ml",
+        "descripcion": "",
+        "precio": "40",
+        "maridaje": ""
+      },
+      {
+        "nombre": "NATURAL LEMONADE",
+        "descripcion": "",
+        "precio": "35",
+        "maridaje": ""
+      },
+      {
+        "nombre": "SPARKLING LEMONADE",
+        "descripcion": "",
+        "precio": "45",
+        "maridaje": ""
+      },
+      {
+        "nombre": "SAN PELLEGRINO SODA",
+        "descripcion": "",
+        "precio": "50",
+        "maridaje": ""
+      },
+      {
+        "nombre": "SAN PELLEGRINO SPARKLING WATER",
+        "descripcion": "250ml",
+        "precio": "50",
+        "maridaje": ""
+      },
+      {
+        "nombre": "",
+        "descripcion": "750ml",
+        "precio": "100",
+        "maridaje": ""
+      },
+      {
+        "nombre": "SANGRIA",
+        "descripcion": "",
+        "precio": "100",
+        "maridaje": ""
+      }
+    ]
+  }
 }

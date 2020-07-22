@@ -1,13 +1,18 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import MENU from '../menuVinos.json';
+import { useRouter } from 'next/router';
+
+import { es, en } from '../menuVinos.json';
 
 export default function Main() {
+  const router = useRouter();
+  const { lang } = router.query;
+  const locale = lang === 'en' ? en : es;
   return (
     <main>
-      {Object.keys(MENU).map((seccion) => (
+      {Object.keys(locale).map((seccion) => (
         <section className="mb-8">
           <h2 className="text-2xl uppercase">{seccion}</h2>
-          {MENU[seccion].map((articulo) => (
+          {locale[seccion].map((articulo) => (
             <article className="leading-none mt-3 font-medium">
               <h3 className="text-xl font-bold">{articulo.nombre}</h3>
               <p className="text-lg">{articulo.descripcion}</p>

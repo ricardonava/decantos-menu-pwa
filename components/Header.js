@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import Link from 'next/link';
-import InstallPWA from './InstallPWA';
+// import InstallPWA from './InstallPWA';
 
 export default function Header() {
   return (
@@ -12,7 +12,7 @@ export default function Header() {
           src="/images/decantos.jpg"
         />
       </Link>
-      <InstallPWA />
+      {/* <InstallPWA /> */}
     </header>
   );
 }

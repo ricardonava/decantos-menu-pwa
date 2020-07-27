@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 export default function Header() {
   return (
-    <header className="flex">
+    <header>
       <Link href="/">
         <img
           className="mx-auto mb-6"

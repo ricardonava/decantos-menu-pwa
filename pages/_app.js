@@ -12,7 +12,7 @@ function App({ Component, pageProps }) {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta
           name="viewport"
-          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=yes"
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=5,user-scalable=yes"
         />
         <meta name="description" content="Description" />
         <meta name="keywords" content="Keywords" />
@@ -49,10 +49,10 @@ function App({ Component, pageProps }) {
         <meta name="nightmode" content="enable/disable" />
 
         {/* <!-- Fitscreen  --> */}
-        <meta
+        {/* <meta
           name="viewport"
-          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=yes"
-        />
+          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=5,user-scalable=yes"
+        /> */}
 
         {/* <!-- Layout mode --> */}
         <meta name="layoutmode" content="fitscreen/standard" />

@@ -4,6 +4,8 @@
 # Deployed on Vercel
 
 ## Instructions:
-Preferably run on Android or Desktop Chrome for PWA functionality
+Run in incognito mode
+
+Run Android or Desktop Chrome for PWA functionality
 
 [Decantos PWA](https://decantos-menu-pwa.vercel.app/)

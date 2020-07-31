@@ -8,7 +8,7 @@ export default function Layout({ children }) {
       <Nav />
       <div className="flex h-screen max-w-2xl mx-auto items-center">
         <div className="px-2 py-6 m-auto w-screen mx-4">
-          <main className="mt-8">{children}</main>
+          <main className="mb-10">{children}</main>
         </div>
       </div>
     </body>

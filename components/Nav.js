@@ -11,7 +11,7 @@ export default function Nav() {
   const { lang } = router.query;
 
   return (
-    <nav className="fixed w-full">
+    <nav className="fixed w-full bottom-0">
       <ul className="flex max-w-2xl mx-auto bg-white">
         <Link href={`/${lang}/vinos`}>
           <li className="flex-1 cursor-pointer">

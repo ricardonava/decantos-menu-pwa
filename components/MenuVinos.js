@@ -8,7 +8,7 @@ export default function Main() {
   const { lang } = router.query;
   const locale = lang === 'en' ? en : es;
   return (
-    <main>
+    <>
       {Object.keys(locale).map((seccion) => (
         <section className="mb-8">
           <h2 className="text-2xl uppercase">{seccion}</h2>
@@ -26,6 +26,6 @@ export default function Main() {
           ))}
         </section>
       ))}
-    </main>
+    </>
   );
 }

@@ -2,9 +2,12 @@
 import Link from 'next/link';
 import Layout from '../components/Layout';
 
+import Header from '../components/Header';
+
 export default function Home() {
   return (
     <Layout>
+      <Header />
       <main>
         <ul className="space-y-4">
           <li>

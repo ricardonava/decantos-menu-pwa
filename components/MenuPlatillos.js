@@ -9,7 +9,7 @@ export default function Main() {
   const locale = lang === 'en' ? en : es;
 
   return (
-    <main>
+    <>
       {Object.keys(locale).map((seccion) => (
         <section className="mb-8">
           <h2 className="text-2xl uppercase">{seccion}</h2>
@@ -40,6 +40,6 @@ export default function Main() {
           separadas.
         </p>
       </section>
-    </main>
+    </>
   );
 }

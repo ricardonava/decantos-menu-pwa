@@ -1,4 +1,5 @@
 /* eslint-disable react/prop-types */
+import Link from 'next/link';
 import Layout from '../../components/Layout';
 import MenuPlatillos from '../../components/MenuPlatillos';
 import { en, es } from '../../menuPlatillos.json';
@@ -7,6 +8,17 @@ const Platillos = ({ params }) => {
   const { lang } = params;
   return (
     <Layout>
+      <div className="flex justify-end mr-8">
+        {lang === 'en' ? (
+          <Link href="/es/platillos">
+            <h2 className="cursor-pointer">ESPAÑOL</h2>
+          </Link>
+        ) : (
+          <Link href="/en/platillos">
+            <h2 className="cursor-pointer">ENGLISH</h2>
+          </Link>
+        )}
+      </div>
       {lang === 'en' ? (
         <MenuPlatillos lang={en} />
       ) : (

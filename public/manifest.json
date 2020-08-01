@@ -1,5 +1,6 @@
 {
   "name": "Drink&Dine",
+  "short_name": "testing",
   "icons": [
     {
       "src": "images/icons/icon-48x48.png",
@@ -53,5 +54,6 @@
   "display": "standalone",
   "orientation": "any",
   "Scope": "/",
-  "start_url": "/"
+  "start_url": "/",
+  "splash_pages": null
 }

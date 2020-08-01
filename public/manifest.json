@@ -54,6 +54,5 @@
   "display": "standalone",
   "orientation": "any",
   "Scope": "/",
-  "start_url": "/",
-  "splash_pages": null
+  "start_url": "/"
 }

@@ -5,13 +5,13 @@ import Link from 'next/link';
 const Header = () => {
   return (
     <header>
-      <Link href="/">
+      {/* <Link href="/">
         <img
           className="mx-auto mb-6"
           alt="DECANTOS"
           src="/images/decantos.jpg"
         />
-      </Link>
+      </Link> */}
       {/* <InstallPWA /> */}
     </header>
   );

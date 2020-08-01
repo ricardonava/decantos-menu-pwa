@@ -1,6 +1,6 @@
 {
-  "name": "Decantos Menu",
-  "short_name": "testing",
+  "name": "Drink & Dine",
+  "short_name": "Drink & Dine",
   "icons": [
     {
       "src": "images/icons/icon-48x48.png",
@@ -49,8 +49,8 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#ffffff",
-  "background_color": "#ffffff",
+  "theme_color": "#ed7f61",
+  "background_color": "#ed7f61",
   "display": "standalone",
   "orientation": "any",
   "Scope": "/",

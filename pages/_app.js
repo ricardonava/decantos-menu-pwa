@@ -19,7 +19,7 @@ const App = ({ Component, pageProps }) => {
         <title>Page Title</title>
 
         {/* <!-- Android  --> */}
-        <meta name="theme-color" content="black" />
+        <meta name="theme-color" content="#ed7f61" />
         <meta name="mobile-web-app-capable" content="yes" />
 
         {/* <!-- iOS --> */}
@@ -29,7 +29,7 @@ const App = ({ Component, pageProps }) => {
 
         {/* <!-- Windows  --> */}
         <meta name="msapplication-navbutton-color" content="black" />
-        <meta name="msapplication-TileColor" content="black" />
+        <meta name="msapplication-TileColor" content="#ed7f61" />
         <meta name="msapplication-TileImage" content="ms-icon-144x144.png" />
         <meta name="msapplication-config" content="browserconfig.xml" />
 
@@ -89,7 +89,7 @@ const App = ({ Component, pageProps }) => {
         />
 
         {/* <!-- Pinned Tab  --> */}
-        <link href="/vercel.svg" rel="mask-icon" size="any" color="white" />
+        <link href="/vercel.svg" rel="mask-icon" size="any" color="#ed7f61" />
 
         {/* <!-- Android  --> */}
         <link href="images/icons/icon-192x192.png" rel="icon" sizes="192x192" />
@@ -112,7 +112,7 @@ const App = ({ Component, pageProps }) => {
 
         {/* <!-- Manifest.json  --> */}
         <link href="/manifest.json" rel="manifest" />
-        <title>PLATILLOS</title>
+        <title>drink & dine</title>
       </Head>
       <Component {...pageProps} />
     </html>

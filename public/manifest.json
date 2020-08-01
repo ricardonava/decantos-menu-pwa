@@ -1,6 +1,6 @@
 {
-  "name": "Drink&Dine",
-  "short_name": "testing",
+  "name": "Drink & Dine",
+  "short_name": "Drink & Dine",
   "icons": [
     {
       "src": "images/icons/icon-48x48.png",
@@ -52,8 +52,7 @@
   "theme_color": "#ed7f61",
   "background_color": "#ed7f61",
   "display": "standalone",
-  "orientation": "any",
+  "orientation": "portrait",
   "Scope": "/",
-  "start_url": "/",
-  "splash_pages": null
+  "start_url": "/"
 }

@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import Link from 'next/link';
 import { useRouter } from 'next/router';
-import FoodIcon from './FoodIcon';
 import BeverageIcon from './Beverage';
+import FoodIcon from './FoodIcon';
 
-export default function Nav() {
+const Nav = () => {
   const router = useRouter();
   if (router.route === '/') {
     return null;
@@ -44,19 +44,6 @@ export default function Nav() {
       </ul>
     </nav>
   );
-}
+};
 
-// export async function getStaticProps(context) {
-//   const { lang: newLang } = context.params;
-//   console.log(newLang);
-//   return {
-//     props: { newLang } // will be passed to the page component as props
-//   };
-// }
-
-// export async function getStaticPaths() {
-//   return {
-//     paths: [{ params: { lang: 'es' } }, { params: { lang: 'en' } }],
-//     fallback: false // See the "fallback" section below
-//   };
-// }
+export default Nav;

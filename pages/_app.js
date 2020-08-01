@@ -3,9 +3,9 @@
 import Head from 'next/head';
 import '../styles.css';
 
-function App({ Component, pageProps }) {
+const App = ({ Component, pageProps }) => {
   return (
-    <html lang="en">
+    <html lang="es">
       <Head>
         {/* <!-- Must --> */}
         <meta charSet="utf-8" />
@@ -117,6 +117,6 @@ function App({ Component, pageProps }) {
       <Component {...pageProps} />
     </html>
   );
-}
+};
 
 export default App;

@@ -1,10 +1,9 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import Link from 'next/link';
+import Header from '../components/Header';
 import Layout from '../components/Layout';
 
-import Header from '../components/Header';
-
-export default function Home() {
+const Home = () => {
   return (
     <Layout>
       <Header />
@@ -28,4 +27,6 @@ export default function Home() {
       </main>
     </Layout>
   );
-}
+};
+
+export default Home;

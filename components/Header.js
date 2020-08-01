@@ -2,7 +2,7 @@
 import Link from 'next/link';
 // import InstallPWA from './InstallPWA';
 
-export default function Header() {
+const Header = () => {
   return (
     <header>
       <Link href="/">
@@ -15,4 +15,6 @@ export default function Header() {
       {/* <InstallPWA /> */}
     </header>
   );
-}
+};
+
+export default Header;

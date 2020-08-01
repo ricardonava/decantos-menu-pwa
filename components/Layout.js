@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import Nav from './Nav';
 
-export default function Layout({ children }) {
+const Layout = ({ children }) => {
   return (
     <body className="font-mono">
       <Nav />
@@ -12,4 +12,6 @@ export default function Layout({ children }) {
       </div>
     </body>
   );
-}
+};
+
+export default Layout;

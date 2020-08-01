@@ -1,12 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import Link from 'next/link';
-// import Header from '../components/Header';
 import Layout from '../components/Layout';
 
 const Home = () => {
   return (
     <Layout>
-      {/* <Header /> */}
       <main>
         <ul className="space-y-4">
           <li>

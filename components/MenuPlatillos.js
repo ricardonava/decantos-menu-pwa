@@ -5,14 +5,14 @@ const MenuPlatillos = ({ lang }) => {
   return (
     <>
       {Object.keys(lang).map((seccion) => (
-        <section className="mb-8">
-          <h2 className="text-2xl uppercase">{seccion}</h2>
+        <section className="mb-8 text-gray-900">
+          <h2 className="text-2xl uppercase text-peach">{seccion}</h2>
           {lang[seccion].map((articulo) => (
             <article className="leading-none mt-3 font-medium">
               <h3 className="text-xl font-bold">{articulo.nombre}</h3>
-              <p className="text-lg">{articulo.descripcion}</p>
-              <p className="text-lg text-gray-500">$ {articulo.precio}</p>
-              <p className="text-md text-gray-400">
+              <p className="text-lg text-peach-dark">{articulo.descripcion}</p>
+              <p className="text-lg text-water-dark">$ {articulo.precio}</p>
+              <p className="text-md text-peach-dark">
                 {articulo.maridaje}
                 {articulo.maridaje !== '' ? '**' : ''}
               </p>
@@ -21,10 +21,10 @@ const MenuPlatillos = ({ lang }) => {
         </section>
       ))}
       <section className="text-justify">
-        <p className="text-md text-gray-500">
-          **RECOMENDACIÓN DE VINO PARA MARIDAR SU PLATILLO
+        <p className="text-md text-peach">
+          ** RECOMENDACIÓN DE VINO PARA MARIDAR SU PLATILLO
         </p>
-        <p className="text-md text-gray-700">
+        <p className="text-md text-water">
           Todos nuestros platillos son preparados al momento con productos
           locales y disponibilidad, agradecemos su tiempo de espera.
           <br />

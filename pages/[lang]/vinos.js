@@ -11,11 +11,15 @@ const Vinos = ({ params }) => {
       <div className="flex justify-end mr-8">
         {lang === 'en' ? (
           <Link href="/es/vinos">
-            <h2 className="cursor-pointer">ESPAÑOL</h2>
+            <h2 className="cursor-pointer font-bold text-peach-dark">
+              ESPAÑOL
+            </h2>
           </Link>
         ) : (
           <Link href="/en/vinos">
-            <h2 className="cursor-pointer">ENGLISH</h2>
+            <h2 className="cursor-pointer font-bold text-peach-dark">
+              ENGLISH
+            </h2>
           </Link>
         )}
       </div>

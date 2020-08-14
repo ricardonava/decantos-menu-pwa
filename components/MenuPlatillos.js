@@ -10,7 +10,7 @@ const MenuPlatillos = ({ lang }) => {
           {lang[seccion].map((articulo) => (
             <article className="leading-none mt-3 font-medium">
               <h3 className="text-xl font-bold">{articulo.nombre}</h3>
-              <p className="text-lg text-peach-dark">{articulo.descripcion}</p>
+              <p className="text-lg">{articulo.descripcion}</p>
               <p className="text-lg text-water-dark">$ {articulo.precio}</p>
               <p className="text-md text-peach-dark">
                 {articulo.maridaje}
@@ -21,7 +21,7 @@ const MenuPlatillos = ({ lang }) => {
         </section>
       ))}
       <section className="text-justify">
-        <p className="text-md text-peach">
+        <p className="text-md text-peach-dark">
           ** RECOMENDACIÓN DE VINO PARA MARIDAR SU PLATILLO
         </p>
         <p className="text-md text-water">
